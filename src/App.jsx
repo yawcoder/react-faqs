@@ -15,7 +15,7 @@ const App = () => {
             const {id,title,icon} = faq
             return <button key={id} onClick={() => {
               setValue(index);
-            }} className={`${index === value && "bg-white shadow-xl duration-300"} duration-300 capitalize text-2xl text-blue-900 font-bold w-1/2 h-2/3 pt-2 rounded-md md:text-sm mx-10 md:ml-5 md:my-2 md:w-4/5 md:text-left md:px-3 md:py-2`}>
+            }} className={`${index === value && "bg-white shadow-xl duration-300"} duration-300 capitalize text-2xl text-blue-900 font-bold w-1/2 h-2/3 pt-2 rounded-md md:text-sm mx-5 md:ml-5 md:my-2 md:w-4/5 md:text-left md:px-3 md:py-2`}>
               <span className="inline-block">{icon}</span>
               <span className="ml-2 hidden md:inline">{title}</span>
             </button>
